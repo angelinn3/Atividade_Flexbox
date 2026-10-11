@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(233, 214, 230);
+}
+
+nav {
+    background-color: rgb(103, 57, 96);
+    padding: 18px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+nav a {
+    color: rgb(233, 214, 230);
+    text-decoration: none;
+    font-size: 17px;
+}
+
+header {
+    background-color: rgb(135, 75, 126);
+    padding: 30px 20px;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(233, 214, 230);
+    text-align: center;
+    font-size: 50px;
+}
+
+header p {
+    color: rgb(233, 214, 230);
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+h2 {
+    color: rgb(135, 75, 126);
+    text-align: center;
+    font-size: 30px;
+    margin: 15px 25px;
+}
+
+#sobre {
+    padding: 20px;
+    margin-bottom: 10px;
+    width: 70%;
+    margin:0 auto;
+    line-height: 1.5;
+}
+
+h3 {
+    color: rgb(135, 75, 126);
+    text-align: center;
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+p {
+    color: rgb(135, 75, 126);
+    text-align: center;
+    font-size: 18px;
+}
+
+section {
+    padding: 15px 20px;
+    margin-bottom: 10px;
+}
+
+
+.produtos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 900px;
+    margin: 0 auto;
+}
+
+.produto {
+    background-color: rgb(225, 179, 218);
+    width: 200px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px;
+}
+
+.produto img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+}
+
+.preco {
+    margin-top: 8px;
+
+}
+
+footer {
+    background-color: rgb(135, 75, 126);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+footer p {
+    color: rgb(233, 214, 230);
+    text-align: center;
+    font-size: 16px;
+}
